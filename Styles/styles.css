@@ -19,3 +19,11 @@ header{
     background-image: url(../Assets/img/banner-bk.jpg);
     color: white;
 }
+
+main{
+    background-color: #51eca8;
+}
+
+main > .pay{
+    background-color: white;
+}
