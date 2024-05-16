@@ -17,12 +17,27 @@ header {
     padding: 200px;
     background-image: url(../Assets/img/banner-bk.jpg);
     color: white;
-    text-align: center;
+    display: flex;
+}
+
+
+.title{
+    width: 50%;
+    height: 50%;
+    color: white;
+    font-size: 300%;
+    align-items: center;
+    margin: 5%;
+    padding: 20px 30px;
+}
+.logo {
+    width: 5%;
+    height: 50%;
 }
 
 main>h1 {
     text-align: center;
-    padding: 4rem;
+    padding: 50px 20px;
 }
 
 .secc1 {
@@ -33,16 +48,40 @@ main>h1 {
     flex-wrap: wrap;
 }
 
-.img2 {
-   
-    background: #51eca8;
+.info {
+    padding: 0 8rem;
+
+}
+
+.sub-info {
+    columns: auto;
+    max-height: 375;
+    text-align: justify;
+}
+
+.btn-1 {
+    padding: 8px 15px;
     color: white;
+    border-radius: 20rem;
+    background-color: #072540;
+    cursor: pointer;
+}
+
+
+
+.diagonal-section {
+    position: relative;
+    background: #51eca8;
     padding: 100px 20px;
     text-align: center;
     clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
 }
 
 
- main>.pay {
-    background-color: white;
+
+
+.pay > h3{
+
 }
+
+
