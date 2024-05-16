@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -13,17 +13,36 @@ body{
     font-family: sans-serif;
 }
 
-header{
-    width: 100%;
-    height: 35%;
+header {
+    padding: 200px;
     background-image: url(../Assets/img/banner-bk.jpg);
     color: white;
+    text-align: center;
 }
 
-main{
-    background-color: #51eca8;
+main>h1 {
+    text-align: center;
+    padding: 4rem;
 }
 
-main > .pay{
+.secc1 {
+    padding: 20px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img2 {
+   
+    background: #51eca8;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
+}
+
+
+ main>.pay {
     background-color: white;
 }
