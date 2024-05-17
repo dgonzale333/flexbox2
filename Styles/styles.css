@@ -14,22 +14,63 @@ body {
 }
 
 header {
-    padding: 200px;
     background-image: url(../Assets/img/banner-bk.jpg);
-    color: white;
+    height: 40rem
+}
+
+.container {
+    width: 100%;
+    height: 20%;
     display: flex;
+    justify-content: space-between;
 }
 
+.container>box-icon {
+    margin-left: 6rem;
+    margin-top: 2rem;
+    font-size: 5rem;
+}
 
-.title{
-    width: 50%;
-    height: 50%;
+.link {
+    text-align: right;
+    display: flex;
     color: white;
-    font-size: 300%;
-    align-items: center;
-    margin: 5%;
-    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 4rem;
+    margin-right: 2rem;
 }
+
+.text-container {
+    font-size: 65px;
+    line-height: 80px;
+    color: white;
+    margin-bottom: 35px;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+.text-container span {
+    display: block;
+}
+
+.sub-title {
+    color: white;
+    margin-left: 6rem;
+}
+
+header>button {
+    margin-top: 3rem;
+    margin-left: 6rem;
+    border-radius: 50px;
+    height: 2.5rem;
+    width: 9rem;
+    color: #072540;
+    font-weight: bold;
+    background-color: #51eca8;
+    cursor: pointer;
+}
+
+
 .logo {
     width: 5%;
     height: 50%;
@@ -77,11 +118,76 @@ main>h1 {
     clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
 }
 
+.section-price{
+    text-align: center;
+    padding: 7rem;
+}
 
+.pay {
+    padding: 0 2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
-.pay > h3{
+.target-pay {
+    flex: 1;
+    margin: 10px;
+    padding: 7rem;
+    border-radius: none;
+    background-color: white;
 
 }
 
+.target-pay2 {
+    flex: 1;
+    margin: 10px;
+    padding: 7rem 3rem;
+    border-radius: none;
+    background-color: #072540;
+    color: white;
+}
 
+.title2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.target-pay .price {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.target-pay2 .price {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.descript {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+
+
+.target-pay .btn2 {
+    background-color: white;
+    color:#072540;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20rem;
+    border-color: #072540;
+    cursor: pointer;
+}
+
+.target-pay2 .btn2 {
+    background-color: #00d084;
+    color:#072540;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20rem;
+    cursor: pointer;
+}
