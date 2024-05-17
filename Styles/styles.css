@@ -33,6 +33,7 @@ header {
 
 .link {
     text-align: right;
+    text-decoration: none;
     display: flex;
     color: white;
     font-size: 20px;
@@ -51,6 +52,8 @@ header {
 
 .text-container span {
     display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 .sub-title {
@@ -76,9 +79,10 @@ header>button {
     height: 50%;
 }
 
-main>h1 {
+main h1{
     text-align: center;
-    padding: 50px 20px;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
 }
 
 .secc1 {
@@ -118,13 +122,12 @@ main>h1 {
     clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
 }
 
-.section-price{
+.section-price {
     text-align: center;
-    padding: 7rem;
+    padding: 1rem;
 }
 
 .pay {
-    padding: 0 2rem;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -175,7 +178,7 @@ main>h1 {
 
 .target-pay .btn2 {
     background-color: white;
-    color:#072540;
+    color: #072540;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20rem;
@@ -185,9 +188,71 @@ main>h1 {
 
 .target-pay2 .btn2 {
     background-color: #00d084;
-    color:#072540;
+    color: #072540;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20rem;
     cursor: pointer;
 }
+
+.container3 {
+    display: flex;
+    width: 100vw;
+    margin-top: 6rem;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.companys img {
+    margin-bottom: 20px;
+    padding: 25px 25px;
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Assets/icons/contact-bk.jpg);
+    padding: 20px;;
+    width: 100%;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-form input, .contact-form textarea {
+    background-color: transparent;
+    border-radius: 1rem;
+    border-color: #00b874;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contact-form button {
+    background-color: #00d084;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #00b874;
+}
+
