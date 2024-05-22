@@ -65,6 +65,7 @@ header>button {
     margin-top: 3rem;
     margin-left: 6rem;
     border-radius: 50px;
+    border: #072540;
     height: 2.5rem;
     width: 9rem;
     color: #072540;
@@ -219,6 +220,7 @@ main h1{
 
 .contact-info {
     margin-bottom: 20px;
+    color: white;
 }
 
 .contact-info h2 {
