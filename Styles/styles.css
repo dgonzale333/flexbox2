@@ -112,6 +112,10 @@ main h1{
     cursor: pointer;
 }
 
+.container-image{
+    display: flex;
+}
+
 
 
 .diagonal-section {
@@ -152,19 +156,19 @@ main h1{
 }
 
 .title2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .target-pay .price {
-    font-size: 2em;
+    font-size: 2rem;
     color: black;
     margin-bottom: 20px;
 }
 
 .target-pay2 .price {
-    font-size: 2em;
+    font-size: 2rem;
     color: white;
     margin-bottom: 20px;
 }
@@ -211,14 +215,20 @@ main h1{
 
 .contact-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     background-image: url(../Assets/icons/contact-bk.jpg);
-    padding: 20px;;
+    padding: 40px;;
     width: 100%;
 }
 
+
 .contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin-bottom: 20px;
+    color: white;
 }
 
 .contact-info h2 {
@@ -229,28 +239,13 @@ main h1{
     margin: 5px 0;
 }
 
-.contact-form {
-    display: flex;
-    justify-content: flex-end;
+.forms{
+    width: 50%;
+    display: block;
+    justify-content: center;
 }
 
-.contact-form input, .contact-form textarea {
-    background-color: transparent;
-    border-radius: 1rem;
-    border-color: #00b874;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: #ffffff;
-}
 
-.contact-form button {
-    background-color: #00d084;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    color: #ffffff;
-    cursor: pointer;
-}
 
 .contact-form button:hover {
     background-color: #00b874;
