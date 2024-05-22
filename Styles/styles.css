@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -65,10 +65,10 @@ header>button {
     margin-top: 3rem;
     margin-left: 6rem;
     border-radius: 50px;
-    border: #072540;
+    border: #05192b;
     height: 2.5rem;
     width: 9rem;
-    color: #072540;
+    color: #05192b;
     font-weight: bold;
     background-color: #51eca8;
     cursor: pointer;
@@ -82,42 +82,59 @@ header>button {
 
 main h1{
     text-align: center;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
-.title-info{
-    text-align: start;
+.title-principal{
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .secc1 {
-    padding: 20px 20px;
     text-align: center;
     display: flex;
+    align-self: flex-end;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .info {
-    padding: 0 8rem;
-
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 5rem;
+    top: 25rem;
 }
 
-.sub-info {
-    columns: auto;
-    max-height: 375;
-    text-align: justify;
+.info h1{
+    text-align: start;
+    margin-bottom: 1rem;
 }
 
-.btn-1 {
-    padding: 8px 15px;
+.info button{
+    margin-top: 3rem;
+    margin-right: 23rem;
+    border-radius: 50px;
+    border: #05192b;
+    height: 2rem;
+    width: 7rem;
     color: white;
-    border-radius: 20rem;
+    font-weight: bold;
     background-color: #072540;
     cursor: pointer;
 }
 
 
+.image-1 {
+    position: absolute;
+    top: 76rem; 
+    right: 80px;
+    width: 35%;
+    height: 45%; 
+    background: url('../Assets/img/feature-1.png') ;
+    background-size: cover;
+    z-index: 1; 
+}
 
 .diagonal-section {
     position: relative;
@@ -128,24 +145,53 @@ main h1{
     clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
 }
 
-
-.image-1 {
-    position: absolute;
-    top: 73rem; 
-    right: 80px;
-    width: 35%;
-    height: 45%; 
-    background: url('../Assets/img/feature-1.png') ;
-    background-size: cover;
-    z-index: 1; 
+.img-2 {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 20rem;
+    left: 6rem;
 }
 
-.diagonal-section img{
-    display: flex;
-    width: 35%;
-    height: 45%; 
+.moved-img-2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px; 
 }
 
+.info-diagonal{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 40rem;
+    top: 4rem;
+}
+
+.info-diagonal h1{
+    text-align: start;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #05192b;
+}
+
+.info-diagonal p{
+    text-align: start;
+    color: #05192b;
+}
+
+.info-diagonal button{
+    margin-top: 3rem;
+    margin-right: 23rem;
+    border-radius: 50px;
+    border: #05192b;
+    height: 2.5rem;
+    width: 9rem;
+    color: white;
+    font-weight: bold;
+    background-color: #072540;
+    cursor: pointer;
+}
 
 
 
@@ -174,7 +220,7 @@ main h1{
     margin: 10px;
     padding: 7rem 3rem;
     border-radius: none;
-    background-color: #072540;
+    background-color: #05192b;
     color: white;
 }
 
@@ -205,7 +251,7 @@ main h1{
 
 .target-pay .btn2 {
     background-color: white;
-    color: #072540;
+    color: #05192b;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20rem;
@@ -215,7 +261,7 @@ main h1{
 
 .target-pay2 .btn2 {
     background-color: #00d084;
-    color: #072540;
+    color: #05192b;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20rem;
