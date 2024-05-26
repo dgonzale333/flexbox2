@@ -137,10 +137,10 @@ header>button:hover{
 
 .image-1 {
     position: absolute;
-    top: 82rem;
+    top: 85rem;
     right: 95px;
     width: 27%;
-    height: 30%;
+    height: 31%;
     background: url('../Assets/img/feature-1.png');
     background-size: cover;
     z-index: 1;
@@ -284,6 +284,7 @@ header>button:hover{
 .target-pay2 .btn2 {
     background-color: #00d084;
     color: #05192b;
+    border: #05192b;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20rem;
@@ -373,6 +374,7 @@ header>button:hover{
     padding: 10px;
     margin: 10px 0;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 ::placeholder{
@@ -384,7 +386,7 @@ footer {
     height: 5rem;
     color: white;
     display: flex;
-    background-color: #072540;
+    background-color: #05192b;
 }
 
 .container-social {
